@@ -19,14 +19,14 @@ void print1toN(int count, int N)
     print1toN(count , N);
 }
 
-void printNto1(int N)
-{
-    if(N == 0)
-        return;
-    cout << N << " ";
-    N--;
-    printNto1(N);
-}
+// void printNto1(int N)
+// {
+//     if(N == 0)
+//         return;
+//     cout << N << " ";
+//     N--;
+//     printNto1(N);
+// }
 
 void print1toNBacktrack(int N)
 {
